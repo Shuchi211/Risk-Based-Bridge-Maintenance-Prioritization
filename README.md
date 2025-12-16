@@ -23,13 +23,6 @@ SOLUTION WORKFLOW:
   a. Address missing values, inconsistencies, and duplicates.
   b. Standardize column names and feature formats.
   c. Handle outliers in environmental and structural data.
-- GIS Integration (ArcGIS Application):
-  a. Imported bridge coordinate data (latitude/longitude) from the FHWA dataset into ArcGIS.
-  b. Ensured all spatial layers used a consistent Coordinate Reference System (CRS).
-  c. Integrated external geospatial datasets, including floodplain maps, seismic hazard zones, and traffic density layers.
-  d. Performed spatial joins to enrich each bridge record with environmental risk attributes.
-  e. Applied buffer analysis to assess the impact of surrounding infrastructure and environmental hazards.
-  f. Exported the enriched geospatial dataset for further EDA and machine learning analysis.
 
 2. Exploratory Data Analysis (EDA)
 - Analyze bridge condition ratings, traffic exposure, and environmental factors.
